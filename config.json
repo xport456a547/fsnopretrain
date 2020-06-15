@@ -1,0 +1,22 @@
+{
+    "info_dataset": "dataset in {'amazon', 'huffpost', 'fewrel', 'reuters', '20news'}",
+    "info_model" :"model in {'logit', 'ridge', 'svm', 'rf', 'lda', 'gini', 'knn'}, accepts a list of models with a list of named parameters",
+
+    "dataset" : "amazon",
+    "top_words": 250,
+
+    "n_way" : 5,
+	"k_shot": 5,
+	"query_size": 25,
+    "n_task": 250,
+
+    "seed": 7,
+    "use_validation": true,
+    "add_similarity": false,
+
+    "model": "logit",
+    "model_parameters": {"C": 1.0},
+    "reduction": false,
+    "weighting_factor": 10
+	
+}
